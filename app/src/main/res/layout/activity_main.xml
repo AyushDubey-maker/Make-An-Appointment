@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00D9FF">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:src="@mipmap/doc"
+        android:transitionName="logo_image"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_below="@+id/image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:text="WELCOME!!"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        android:transitionName="logo_name"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ff9">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="BOOK AN APPOINTMENT"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/textDetails"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="#FFFFE0"
+
+                android:hint="Enter Your Test Details"
+                android:paddingBottom="20dp"
+                android:textSize="20dp"
+
+                android:paddingLeft="20dp"
+                android:textColor="#000000"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+
+                android:hint="Enter A Date"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:background="#FFFFE0"
+                android:drawableEnd="@drawable/ic_baseline_calendar_today_24"
+               />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_below="@+id/date"
+                android:hint="Enter Your Address"
+                android:background="#FFFFE0"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+
+              android:drawableEnd="@drawable/ic_baseline_add_location_24" />
+    </LinearLayout>
+
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Any Previous Records"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radioGroup">
+    <RadioButton
+        android:id="@+id/check_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="checkButton"
+       android:checked="true" />
+
+    <RadioButton
+        android:id="@+id/check_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="checkButton"/>
+</RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT"
+        android:onClick="submit"/>
+
+</LinearLayout>

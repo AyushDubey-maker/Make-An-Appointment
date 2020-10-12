@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="54dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="#4764E4">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="KNOW MORE ABOUT US"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:drawableEnd="@drawable/ic_baseline_expand_more_24"/>
+</RelativeLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="350dp"
+ android:background="#fff">
+<TextView
+    android:id="@+id/bottom_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:paddingLeft="5dp"
+    android:fontFamily="casual"
+    android:text="@string/bottom_sheet"
+    android:textAppearance="@style/TextAppearance.AppCompat"
+    android:scrollbars="vertical"
+    />
+</RelativeLayout>
+</LinearLayout>

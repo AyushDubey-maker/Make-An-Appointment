@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff9">
+
+    <TextView
+        android:id="@+id/appointment"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_horizontal"
+        android:hint="NO APPOINTMENT FIXED"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="20dp"
+        android:scrollbars="vertical">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="APPOINTMENT DATE:-"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="-/-/-"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:paddingTop="10dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="EXIT"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:onClick="exitApp"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Know More About Healthy Aging"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+       >
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:videoId="KD-FmeueFUo"
+            app:autoPlay="true"
+            app:showFullScreenButton="true" />
+    </LinearLayout>
+
+</LinearLayout>
