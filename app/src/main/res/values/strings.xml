@@ -8,6 +8,13 @@
         <item>Care And Cure Hospital</item>
 
     </string-array>
+    <string-array name="TestNames">
+        <item>Select Test</item>
+        <item>Blood Test</item>
+        <item>Sugar Test</item>
+        <item>Thyroid Test</item>
+        <item>Full-Body Check</item>
+    </string-array>
     <string name="bottom_sheet"> <item>"This project is to computerize the Front Office Management of Hospital to develop software which is user
 friendly simple, fast, and cost – effective. It deals with the collection of patient’s information, diagnosis details, etc.
 Traditionally, it was done manually. The main function of the system is register and store patient details and doctor
@@ -16,4 +23,10 @@ contains patient details, diagnosis details, while system output is to get these
 Management System can be entered using a username and password. It is accessible either by an administrator or
 receptionist. Only they can add data into the database. The data can be retrieved easily. The data are well protected for
 personal use and makes the data processing very fast."</item></string>
+    <string name="dialog_message"><item>
+      Click on CREATE APPOINTMENT
+        -->Fill the given Form and Click on SUBMIT
+        -->You can delete your current appointmentif you want
+        -->For any queries Click on Contact Us.
+    </item></string>
 </resources>

@@ -25,20 +25,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.example.makeanote.MainActivity" >
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.makeanote.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.makeanote.MainActivity2" />
-        <activity android:name="com.example.makeanote.Login" />
+        <activity
+            android:name="com.example.makeanote.MainActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.makeanote.Login"
+            android:screenOrientation="portrait" />
         <activity android:name="com.example.makeanote.Forgot_Password" />
-        <activity android:name="com.example.makeanote.Homepage" />
-        <activity android:name="com.example.makeanote.PevAppointment" />
-        <activity android:name="com.example.makeanote.CreateAppointment" />
+        <activity
+            android:name="com.example.makeanote.Homepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.makeanote.PevAppointment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.makeanote.CreateAppointment"
+            android:screenOrientation="portrait" >
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

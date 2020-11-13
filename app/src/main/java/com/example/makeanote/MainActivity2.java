@@ -22,6 +22,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.onurkaganaldemir.ktoastlib.KToast;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -32,6 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
    EditText password, email;
     FirebaseAuth firebaseAuth;
     ProgressBar progressBar;
+    FirebaseUser firebaseUser;
 
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -46,6 +48,16 @@ public class MainActivity2 extends AppCompatActivity {
         password =  findViewById(R.id.password);
         goHome = findViewById(R.id.go);
         firebaseAuth = FirebaseAuth.getInstance();
+
+
+        firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
+        if(firebaseUser !=null){
+            Intent intent=new Intent(MainActivity2.this,Homepage.class);
+            startActivity(intent);
+            finish();
+        }
+
+
         email =  findViewById(R.id.email);
         progressBar=findViewById(R.id.progress_bar);
         progressBar.setVisibility(View.GONE);

@@ -4,49 +4,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#ff9"
+    android:background="#fff"
 
     >
-<com.hanks.htextview.typer.TyperTextView
-    android:id="@+id/prevApp"
-    android:layout_width="match_parent"
-    android:layout_height="55dp"
-    android:text=""
-    android:textSize="25dp"
-    android:textAlignment="center"
-    android:paddingTop="5dp"
-    android:background="#FF9800"
-    android:gravity="center_horizontal"
-    android:textStyle="bold"/>
+    <com.hanks.htextview.typer.TyperTextView
+        android:id="@+id/prevApp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/homepage"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <TextView
 
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="45dp"
             android:textSize="20dp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
+
             android:text=""
             android:gravity="center_horizontal" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="45dp"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:background="#FF9800"
+            android:background="@drawable/rounded_btn"
             android:fontFamily="sans-serif-black"
             android:onClick="createApp"
-            android:paddingTop="20dp"
+            android:paddingTop="10dp"
             android:text="CREATE NEW APPOINTMENT"
-            android:textColor="#000000"
-            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
             android:textAlignment="center"
+
 
             />
 
@@ -55,40 +58,50 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Contact Us"
-
-           android:layout_gravity="center"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:onClick="callMe"
-         android:drawableEnd="@drawable/ic_baseline_phone_24"  />
+            />
 
         <Button
             android:id="@+id/sendEmail"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="EMAIL"
-
+            android:text="EMAIL-US"
+             android:background="#000"
+            android:textColor="#fff"
             android:layout_marginTop="20dp"
             android:onClick="sendEmail"
-            android:drawableEnd="@drawable/ic_baseline_email_24"/>
+           />
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:id="@+id/messageText"
-                android:text="“To keep the body in good health is a duty…otherwise we shall not be able to keep the mind strong and clear.”  – Buddha"
-                android:textSize="20dp"
-                android:paddingTop="20dp"
-                android:paddingLeft="10dp"
-                android:fontFamily="sans-serif-light"
-                android:layout_marginTop="20dp"
-                android:textStyle="italic"
-                android:textColor="#000000"/>
-             <ImageView
-                 android:layout_width="match_parent"
-                 android:layout_height="180dp"
-                 android:src="@mipmap/doc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/messageText"
+            android:text="“To keep the body in good health is a duty…otherwise we shall not be able to keep the mind strong and clear.”  – Buddha"
+            android:textSize="20dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textColor="#000000"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@mipmap/doc"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+
+            android:src="@drawable/ic_baseline_chat_bubble_24"/>
 
     </LinearLayout>
     <include

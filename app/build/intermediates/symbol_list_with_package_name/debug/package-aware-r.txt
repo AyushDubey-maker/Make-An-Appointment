@@ -39,6 +39,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array TestNames
 array names
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1266,9 +1267,12 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_add_location_24
 drawable ic_baseline_calendar_today_24
+drawable ic_baseline_chat_bubble_24
 drawable ic_baseline_email_24
 drawable ic_baseline_expand_more_24
 drawable ic_baseline_face_24
+drawable ic_baseline_file_copy_24
+drawable ic_baseline_language_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_new_releases_24
 drawable ic_baseline_phone_24
@@ -1296,6 +1300,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_btn
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1420,6 +1425,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delete_report
 id deltaRelative
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1433,6 +1439,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id display
+id display_phone
 id dragDown
 id dragEnd
 id dragLeft
@@ -1444,6 +1451,7 @@ id drop_shadow_top
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextMultiLine
 id edit_query
 id email
 id email1
@@ -1455,6 +1463,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id extra_views_container
+id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1503,6 +1512,7 @@ id list_item
 id live_video_indicator
 id logo
 id logo_name
+id logout
 id masked
 id menu_button
 id menu_root
@@ -1537,6 +1547,8 @@ id password
 id path
 id pathRelative
 id percent
+id phoneNo
+id phone_no
 id pin
 id play_pause_button
 id position
@@ -1585,6 +1597,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_date
 id sin
 id sinUp
 id smallLabel
@@ -1594,6 +1607,7 @@ id snap
 id snapMargins
 id spacer
 id spinner1
+id spinner2
 id spline
 id split_action_bar
 id spread
@@ -1625,12 +1639,10 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
-id textDetails
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id text_container
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1666,6 +1678,7 @@ id up
 id useLogo
 id video_title
 id view_offset_helper
+id view_report
 id visible
 id warningToastImg
 id wide
@@ -1775,6 +1788,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu logout_menu
 mipmap appointment
 mipmap doc
 mipmap getwell
@@ -1843,6 +1857,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string dialog_message
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_database_url

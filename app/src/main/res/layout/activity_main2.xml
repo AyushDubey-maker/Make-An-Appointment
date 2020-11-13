@@ -7,8 +7,8 @@
     tools:context=".MainActivity2"
     android:orientation="vertical"
     android:padding="10dp"
-
-   >
+    android:background="#ff9"
+    >
     <ImageView
         android:id="@+id/logo"
         android:layout_width="150dp"
@@ -18,16 +18,16 @@
 
 
 
-        <TextView
-            android:id="@+id/logo_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:fontFamily="serif-monospace"
-            android:text=""
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:transitionName="logo_name"/>
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="serif-monospace"
+        android:text=""
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:transitionName="logo_name"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
             android:elevation="0dp"
             android:transitionName="password_tran"
             android:text="FORGOT PASSWORD?"
-           android:textSize="15dp"
+            android:textSize="15dp"
             android:textColor="#000000"/>
 
         <Button
@@ -101,7 +101,7 @@
             android:text="GO"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
-           />
+            />
         <Button
             android:id="@+id/new_user"
             android:layout_width="wrap_content"
