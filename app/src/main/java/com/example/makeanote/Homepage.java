@@ -11,6 +11,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ import java.util.ArrayList;
 
 public class Homepage extends AppCompatActivity {
     Button contact;
+    ImageButton bmi_cal;
     TextView bottom_text;
     private HTextView textViewTyper;//animated TextView
     int delay = 2000; //milliseconds
@@ -41,7 +43,15 @@ public class Homepage extends AppCompatActivity {
         arrMessages.add("HOME PAGE");
 
         textViewTyper=findViewById(R.id.prevApp);
-
+        bmi_cal=findViewById(R.id.bmi_cal);
+        bmi_cal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent i=new Intent(Homepage.this,BMI_Calculator.class);
+               startActivity(i);
+               finish();
+            }
+        });
         textViewTyper.animateText(arrMessages.get(position));
         /* Change Messages every 2 Seconds */
         handler = new Handler();

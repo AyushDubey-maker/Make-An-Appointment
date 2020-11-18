@@ -37,6 +37,8 @@
             android:screenOrientation="portrait"
            >
         </activity>
+        <activity android:name=".BMI_Calculator"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -37,7 +37,7 @@ public class CreateAppointment extends AppCompatActivity implements AdapterView.
    TextView date;
     Button Submit;
     String s;
-    RadioButton button;
+    RadioButton button,but_yes,but_no;
     RadioGroup radioGroup;
    FirebaseUser firebaseUser;
     DataBaseHelper myDb;
@@ -58,8 +58,11 @@ public class CreateAppointment extends AppCompatActivity implements AdapterView.
         Spinner spinner=findViewById(R.id.spinner1);
         Spinner spinner2=findViewById(R.id.spinner2);
         radioGroup=findViewById(R.id.radioGroup);
-
+        but_yes=findViewById(R.id.check_yes);
+        but_no=findViewById(R.id.check_no);
         myDb=new DataBaseHelper(this);
+
+
 
  //Activating Spinner containing names we have stored in string value//
   ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this,R.array.names,android.R.layout.simple_spinner_item);
@@ -160,6 +163,10 @@ public class CreateAppointment extends AppCompatActivity implements AdapterView.
     public void checkButton(View v){
         int radioId=radioGroup.getCheckedRadioButtonId();
         button=findViewById(radioId);
+        if(but_yes.isChecked()){
+            Toast.makeText(this, "Kindly Bring Your Reports along.", Toast.LENGTH_SHORT).show();
+        }
+
     }
     //Logout Using Menu
     public boolean onCreateOptionsMenu(Menu menu){

@@ -1,27 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_new_releases_24.png.flat",
-        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_new_releases_24.png"
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_tag_faces_24.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_tag_faces_24.png"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_tag_faces_24.png.flat",
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_tag_faces_24.png"
     },
     {
-        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_tag_faces_24.png.flat",
-        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_tag_faces_24.png"
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_new_releases_24.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_new_releases_24.png"
     },
     {
-        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_add_location_24.png.flat",
-        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_add_location_24.png"
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_hospital.jpg.flat",
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\mipmap-xxxhdpi\\hospital.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_add_location_24.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_add_location_24.png"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_file_copy_24.png.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_calendar_today_24.xml"
     },
     {
-        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_tag_faces_24.png.flat",
-        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_tag_faces_24.png"
-    },
-    {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_lock_24.xml.flat",
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_tag_faces_24.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_tag_faces_24.png"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_add_location_24.png.flat",
@@ -424,12 +424,20 @@
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\drawable\\rounded_btn.xml"
     },
     {
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_img.png.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\mipmap-xxxhdpi\\img.png"
+    },
+    {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_calendar_today_24.png.flat",
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_calendar_today_24.png"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\anim_bottom_animation.xml.flat",
         "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\anim\\bottom_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\layout_bmi_calculator.xml.flat",
+        "source": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\src\\main\\res\\layout\\bmi_calculator.xml"
     },
     {
         "merged": "C:\\Users\\Ayush\\AndroidStudioProjects\\MakeANote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_new_releases_24.png.flat",
