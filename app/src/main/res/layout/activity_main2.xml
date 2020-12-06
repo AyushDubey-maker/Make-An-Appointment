@@ -114,6 +114,19 @@
             android:text="NEW USER?SIGN UP"
             android:drawableEnd="@drawable/ic_baseline_new_releases_24"
             android:drawablePadding="5dp"/>
+        <Button
+            android:id="@+id/admin_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:transitionName="login_sinup_tran"
+            android:text="ADMIN LOGIN"
+            android:drawableEnd="@drawable/ic_baseline_person_24"
+            android:drawablePadding="5dp"
+            android:paddingLeft="5dp"
+            android:background="#ff9"/>
+            
 
 
 

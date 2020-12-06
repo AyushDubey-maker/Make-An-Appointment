@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\3d3a355a52792a1b4b3b73cd29d27027\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\33693b388486ae3bef4fe39551b97937\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ac967d5d1e1128f3783cef9c0981f5b7\jetified-core-10.0.5\AndroidManifest.xml:2:1-14:12
-MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\cb85940814049966a435798a43ad17a1\jetified-ktoast-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ad07812d353400484343df55ae451588\jetified-ktoast-1.0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5865bef9f517aac03541effd167a8116\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:19.4.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\1f8ce53f1f4397c6591f0bd3aee62999\jetified-firebase-auth-19.4.0\AndroidManifest.xml:17:1-42:12
@@ -17,7 +17,7 @@ MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\A
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\1287ca64da620a40201212cd9b613584\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5b44843a1beaf7b3564796e4d6715cd6\jetified-play-services-base-17.4.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-core:17.5.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\92073594c049a43d4d33345e2b32be49\jetified-firebase-core-17.5.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\11e38d5d2a0f407c11324588e42c868b\jetified-readmoretextview-2.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\98b6f8ecff11bbd30380fc1984432f99\jetified-readmoretextview-2.1.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\8df97faef3333ebf2699135297027ad0\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5870076e9aa8ff3c9d23d6b9ac77a811\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:17.5.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\7b5180ee43b5e65581dacb67a8c1939e\jetified-firebase-analytics-17.5.0\AndroidManifest.xml:2:1-9:12
@@ -65,20 +65,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ayush\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ebe904cddbe07e1e19fa9ed52e885ab5\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\1388fe5d372779ba856d80df221b91e2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\4d73280279a4c1f42524237947c184c3\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:2:11-69
@@ -127,7 +127,7 @@ ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:7:22-73
 application
-ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:8:5-40:19
+ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:8:5-46:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\3d3a355a52792a1b4b3b73cd29d27027\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\3d3a355a52792a1b4b3b73cd29d27027\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\33693b388486ae3bef4fe39551b97937\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -238,6 +238,24 @@ ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidMa
 		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:37:13-49
 	android:name
 		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.example.makeanote.BMI_Calculator
+ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:40:9-41:51
+	android:screenOrientation
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:40:19-49
+activity#com.example.makeanote.Admin_Login
+ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:42:9-43:51
+	android:screenOrientation
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:42:19-46
+activity#com.example.makeanote.Admin_Activity
+ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:44:9-45:51
+	android:screenOrientation
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml:44:19-49
 uses-sdk
 INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ayush\AndroidStudioProjects\MakeANote\app\src\main\AndroidManifest.xml
@@ -248,8 +266,8 @@ MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ayush\.gradle\
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\33693b388486ae3bef4fe39551b97937\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ac967d5d1e1128f3783cef9c0981f5b7\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ac967d5d1e1128f3783cef9c0981f5b7\jetified-core-10.0.5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\cb85940814049966a435798a43ad17a1\jetified-ktoast-1.0.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\cb85940814049966a435798a43ad17a1\jetified-ktoast-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ad07812d353400484343df55ae451588\jetified-ktoast-1.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.onurkagan:ktoast:1.0.2] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ad07812d353400484343df55ae451588\jetified-ktoast-1.0.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5865bef9f517aac03541effd167a8116\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5865bef9f517aac03541effd167a8116\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.4.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\f759ba9f6a5ba4949651c79240677eaa\jetified-firebase-database-19.4.0\AndroidManifest.xml:19:5-21:41
@@ -268,8 +286,8 @@ MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Ayush\.g
 MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5b44843a1beaf7b3564796e4d6715cd6\jetified-play-services-base-17.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:17.5.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\92073594c049a43d4d33345e2b32be49\jetified-firebase-core-17.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.5.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\92073594c049a43d4d33345e2b32be49\jetified-firebase-core-17.5.0\AndroidManifest.xml:5:5-44
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\11e38d5d2a0f407c11324588e42c868b\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\11e38d5d2a0f407c11324588e42c868b\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\98b6f8ecff11bbd30380fc1984432f99\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.borjabravo:readmoretextview:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\98b6f8ecff11bbd30380fc1984432f99\jetified-readmoretextview-2.1.0\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\8df97faef3333ebf2699135297027ad0\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\8df97faef3333ebf2699135297027ad0\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5870076e9aa8ff3c9d23d6b9ac77a811\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44

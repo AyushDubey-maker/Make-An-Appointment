@@ -1212,6 +1212,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admin
 drawable avd_hide_password
 drawable avd_show_password
 drawable ayp_background_item_selected
@@ -1275,6 +1276,7 @@ drawable ic_baseline_file_copy_24
 drawable ic_baseline_language_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_new_releases_24
+drawable ic_baseline_person_24
 drawable ic_baseline_phone_24
 drawable ic_baseline_tag_faces_24
 drawable ic_error
@@ -1371,6 +1373,11 @@ id add
 id address
 id adjust_height
 id adjust_width
+id admin_email
+id admin_enter
+id admin_login
+id admin_password
+id admin_progress_bar
 id alertTitle
 id aligned
 id all
@@ -1389,6 +1396,10 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id bmi_but
+id bmi_cal
+id bmi_text
+id bmi_value
 id bottom
 id bottom_text
 id bounce
@@ -1474,6 +1485,8 @@ id forever
 id forgot
 id full_name
 id fullscreen_button
+id getHeight
+id getWeight
 id ghost_view
 id go
 id gone
@@ -1492,6 +1505,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id info
 id infoToastImg
 id invisible
@@ -1643,6 +1657,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1746,10 +1761,13 @@ layout abc_tooltip
 layout activity_main
 layout activity_main2
 layout activity_sinup
+layout admin_layout
+layout admin_login
 layout ayp_default_player_ui
 layout ayp_empty_layout
 layout ayp_menu_item
 layout ayp_player_menu
+layout bmi_calculator
 layout bottom_sheet
 layout createapp
 layout custom_dialog
@@ -1795,6 +1813,7 @@ mipmap getwell
 mipmap hospital
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap img
 mipmap notemake
 mipmap oops
 raw ayp_youtube_player

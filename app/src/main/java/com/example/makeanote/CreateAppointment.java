@@ -117,7 +117,7 @@ public class CreateAppointment extends AppCompatActivity implements AdapterView.
          boolean isInserted=   myDb.insertData(text.getText().toString(), address.getText().toString(),
                     date.getText().toString(),
                     phone_no.getText().toString());
-         if(isInserted==true) {
+         if(isInserted) {
             // Toast.makeText(CreateAppointment.this,"Data Inserted",Toast.LENGTH_SHORT).show();
              Intent i = new Intent(CreateAppointment.this, PevAppointment.class);
              //This code is written to transfer date and test details to next page//
@@ -132,7 +132,7 @@ public class CreateAppointment extends AppCompatActivity implements AdapterView.
             KToast.infoToast(this, "Your Appointment is Fixed For Address: " + a, Gravity.BOTTOM, KToast.LENGTH_AUTO);
              finish();
          } else if(!isInserted){
-             Toast.makeText(CreateAppointment.this,"Data Not Inserted",Toast.LENGTH_SHORT).show();
+             Toast.makeText(CreateAppointment.this,"Appointment has already been made by this Phone no.",Toast.LENGTH_SHORT).show();
          }
         }
     }

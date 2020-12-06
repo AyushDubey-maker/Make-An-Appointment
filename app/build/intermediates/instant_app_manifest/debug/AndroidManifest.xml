@@ -53,6 +53,15 @@
             android:name="com.example.makeanote.CreateAppointment"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.example.makeanote.BMI_Calculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.makeanote.Admin_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.makeanote.Admin_Activity"
+            android:screenOrientation="portrait" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

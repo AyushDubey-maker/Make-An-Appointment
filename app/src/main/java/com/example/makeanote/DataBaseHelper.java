@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
+    //Taken params in the same slide.
     public static final String DATABASE_NAME="Patient.db";
     public static final String TABLE_NAME="Patient_table";
     public static final String COL_1="TEST_DETAILS";

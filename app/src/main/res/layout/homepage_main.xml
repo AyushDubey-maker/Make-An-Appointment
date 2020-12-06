@@ -59,7 +59,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Contact Us"
-            android:background="#000"
+            android:background="#4764E4"
             android:textColor="#fff"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="EMAIL-US"
-             android:background="#000"
+            android:background="#4764E4"
             android:textColor="#fff"
             android:layout_marginTop="20dp"
             android:onClick="sendEmail"
@@ -101,6 +101,16 @@
             android:layout_marginRight="20dp"
 
             android:src="@drawable/ic_baseline_chat_bubble_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="More Info"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:textColor="#000"/>
+
 
         <ImageButton
             android:id="@+id/bmi_cal"
@@ -109,6 +119,15 @@
             android:layout_gravity="end"
             android:layout_marginTop="10dp"
             android:src="@mipmap/img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="serif"
+            android:text="BMI Calculator"
+            android:textColor="#000"
+          />
 
     </LinearLayout>
     <include

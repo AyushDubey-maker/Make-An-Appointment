@@ -28,9 +28,10 @@ import com.onurkaganaldemir.ktoastlib.KToast;
 public class MainActivity2 extends AppCompatActivity {
     Button new_userTrans;
     Button goHome;
+    Button admin_login;
     ImageView image;
     TextView logoText,forgotPassword;
-   EditText password, email;
+    EditText password, email;
     FirebaseAuth firebaseAuth;
     ProgressBar progressBar;
     FirebaseUser firebaseUser;
@@ -41,6 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main2);
         new_userTrans = findViewById(R.id.new_user);
+       admin_login=findViewById(R.id.admin_login);
 
         image = findViewById(R.id.logo);
         logoText = findViewById(R.id.sinUp);
@@ -122,6 +124,14 @@ public class MainActivity2 extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+        admin_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity2.this,Admin_Login.class);
+                startActivity(i);
+                finish();
             }
         });
     }
