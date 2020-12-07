@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Make A Note</string>
     <string-array name="names">
-        <item>Select Hospital</item>
-        <item>City Hospital</item>
-        <item>Wockhardt Hospital</item>
-        <item>Seven Eleven</item>
-        <item>Care And Cure Hospital</item>
+        <item>Select Doctor</item>
+        <item>Dr.Gupta (9:00am to 12:00pm)</item>
+        <item>Dr.Rohan Sharma (10:00am to 1:00pm)</item>
+        <item>Dr.Singh(2:00pm to 4:00pm)</item>
+        <item>Dr.Roy (3:00pm to 7:00pm)</item>
 
     </string-array>
     <string-array name="TestNames">

@@ -78,8 +78,8 @@ public class PevAppointment extends AppCompatActivity {
                 StringBuffer buffer=new StringBuffer();
                 while (res.moveToNext()){
                     buffer.append("TEST DETAILS :"+ res.getString(0)+"\n");
-                    buffer.append("Appointment Date :"+ res.getString(1)+"\n");
-                    buffer.append("Your Address :"+ res.getString(2)+"\n");
+                    buffer.append("Your Address :"+ res.getString(1)+"\n");
+                    buffer.append("Appointment Date :"+ res.getString(2)+"\n");
                     buffer.append("Phone No :"+ res.getString(3)+"\n\n");
 
                 }

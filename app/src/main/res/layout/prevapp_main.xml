@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/appointment"
-        android:background="#fff"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:background="#fff">
+    >
         <TextView
             android:id="@+id/display"
             android:layout_width="match_parent"
@@ -59,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
-        android:background="#fff">
+        >
         <TextView
             android:id="@+id/display_phone"
             android:layout_width="match_parent"

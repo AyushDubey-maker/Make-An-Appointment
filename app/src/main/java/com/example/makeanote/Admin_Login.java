@@ -69,7 +69,7 @@ public class Admin_Login extends AppCompatActivity {
                                     startActivity(i);
                                 } else {
                                    admin_progressbar.setVisibility(View.GONE);
-                                    KToast.errorToast(Admin_Login.this,"Invalid User Recheck!", Gravity.BOTTOM,KToast.LENGTH_SHORT);
+                                    KToast.errorToast(Admin_Login.this,"Invalid Admin Recheck!", Gravity.BOTTOM,KToast.LENGTH_SHORT);
                                 }
                             }
                         });

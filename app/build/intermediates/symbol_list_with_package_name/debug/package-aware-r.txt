@@ -1266,9 +1266,11 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_access_time_24
 drawable ic_baseline_add_location_24
 drawable ic_baseline_calendar_today_24
 drawable ic_baseline_chat_bubble_24
+drawable ic_baseline_check_24
 drawable ic_baseline_email_24
 drawable ic_baseline_expand_more_24
 drawable ic_baseline_face_24
@@ -1373,8 +1375,10 @@ id add
 id address
 id adjust_height
 id adjust_width
+id admin_app_content
 id admin_email
 id admin_enter
+id admin_img
 id admin_login
 id admin_password
 id admin_progress_bar
@@ -1522,6 +1526,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id live_video_indicator
 id logo
@@ -1762,6 +1767,7 @@ layout activity_main
 layout activity_main2
 layout activity_sinup
 layout admin_layout
+layout admin_listview
 layout admin_login
 layout ayp_default_player_ui
 layout ayp_empty_layout
