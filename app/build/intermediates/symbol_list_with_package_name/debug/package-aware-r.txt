@@ -1231,6 +1231,7 @@ drawable background_info_toast
 drawable background_normal_toast
 drawable background_success_toast
 drawable background_warning_toast
+drawable border_textview
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1264,6 +1265,12 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable family_daughter
+drawable family_father
+drawable family_grandfather
+drawable family_grandmother
+drawable family_older_sister
+drawable family_son
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_access_time_24
@@ -1280,6 +1287,8 @@ drawable ic_baseline_lock_24
 drawable ic_baseline_new_releases_24
 drawable ic_baseline_person_24
 drawable ic_baseline_phone_24
+drawable ic_baseline_sentiment_dissatisfied_24
+drawable ic_baseline_sentiment_satisfied_alt_24
 drawable ic_baseline_tag_faces_24
 drawable ic_error
 drawable ic_info
@@ -1381,7 +1390,12 @@ id admin_enter
 id admin_img
 id admin_login
 id admin_password
+id admin_pic
+id admin_pic_1
 id admin_progress_bar
+id admin_view_appointments
+id admin_view_feedback
+id admin_view_patients
 id alertTitle
 id aligned
 id all
@@ -1479,6 +1493,7 @@ id expand_activities_button
 id expanded_menu
 id extra_views_container
 id fab
+id feedback_title
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1528,6 +1543,7 @@ id linear
 id listMode
 id listView
 id list_item
+id list_user
 id live_video_indicator
 id logo
 id logo_name
@@ -1565,6 +1581,7 @@ id parent_matrix
 id password
 id path
 id pathRelative
+id patient_content
 id percent
 id phoneNo
 id phone_no
@@ -1766,9 +1783,12 @@ layout abc_tooltip
 layout activity_main
 layout activity_main2
 layout activity_sinup
+layout admin_choose_act
 layout admin_layout
 layout admin_listview
 layout admin_login
+layout admin_view_users
+layout admin_view_users_list
 layout ayp_default_player_ui
 layout ayp_empty_layout
 layout ayp_menu_item
@@ -1806,6 +1826,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout patient_feedback
 layout prevapp_main
 layout reset_password
 layout select_dialog_item_material

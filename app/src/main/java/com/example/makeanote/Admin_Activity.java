@@ -2,6 +2,7 @@ package com.example.makeanote;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.DataSetObserver;
 import android.database.sqlite.SQLiteDatabase;
@@ -85,4 +86,11 @@ public class Admin_Activity extends AppCompatActivity {
 
    }
 
+    @Override
+    public void onBackPressed() {
+        Intent i=new Intent(Admin_Activity.this,Admin_Choose_Act.class);
+        startActivity(i);
+        finish();
+        super.onBackPressed();
+    }
 }

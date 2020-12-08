@@ -65,7 +65,7 @@ public class Admin_Login extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 admin_progressbar.setVisibility(View.VISIBLE);
                                 if (task.isSuccessful()) {
-                                    Intent i=new Intent(Admin_Login.this,Admin_Activity.class);
+                                    Intent i=new Intent(Admin_Login.this,Admin_Choose_Act.class);
                                     startActivity(i);
                                 } else {
                                    admin_progressbar.setVisibility(View.GONE);
