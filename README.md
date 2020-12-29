@@ -5,7 +5,7 @@ This is an android application built to book and store appointments for the Pati
 **The stored appointments can be viewed and analysed by the admin using the Admin-Section**
 
 *Code Output*
-[![Make-A-Note](/Note (1).jpg)]()
-[![Make-A-Note](/Note (2).jpg)]()
-[![Make-A-Note](/Note (3).jpg)]()
-[![Make-A-Note](/Note (4).jpg)]()
+[(/Note (1).jpg)]()
+[(/Note (2).jpg)]()
+[(/Note (3).jpg)]()
+[(/Note (4).jpg)]()
